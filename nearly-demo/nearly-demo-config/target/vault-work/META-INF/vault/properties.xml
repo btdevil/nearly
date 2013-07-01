@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>com.nearly.demo - nearly-demo-config</comment>
+<entry key="createdBy">SG0218866</entry>
+<entry key="name">nearly-demo-config</entry>
+<entry key="created">2013-07-01T17:19:10.708+0100</entry>
+<entry key="groupId">com.nearly.demo</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.nearly.demo</entry>
+<entry key="description">A CQ package that contains all configuration information for the 'Nearly CQ demo' project.
+
+        The config information for all environments (dev, qa, production etc.) can all be co-located in this one module
+        and can then be targeted at specific environments by using the runmodes functionality in CQ. See
+        http://dev.day.com/content/kb/home/cq5/CQ5SystemAdministration/RunModeDependentConfigAndInstall.html for
+        further information.
+
+        During development, the files in this module should be sync'd to your CQ instance using the FileVault command
+        line tool available with CQ. There is also a plugin for Eclipse called "vaultclipse" that can be used instead
+        of the command line tool.</entry>
+<entry key="artifactId">nearly-demo-config</entry>
+<entry key="path">/etc/packages/com.nearly.demo/nearly-demo-config.zip</entry>
+</properties>

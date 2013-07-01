@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.nearly.demo.services.GoodbyeWorldService" name="%com.nearly.demo.services.GoodbyeWorldService.name" description="%com.nearly.demo.services.GoodbyeWorldService.description"/>
+    <Designate pid="com.nearly.demo.services.GoodbyeWorldService">
+        <Object ocdref="com.nearly.demo.services.GoodbyeWorldService"/>
+    </Designate>
+</metatype:MetaData>

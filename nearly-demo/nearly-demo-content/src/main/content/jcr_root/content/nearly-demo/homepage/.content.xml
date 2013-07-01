@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:designPath="/etc/designs/nearly-demo"
+            cq:lastModified="{Date}2012-06-20T16:31:37.986-07:00"
+            cq:lastModifiedBy="admin"
+            cq:template="/apps/nearly-demo/templates/base"
+            jcr:primaryType="cq:PageContent"
+            jcr:title="Home Page"
+            sling:resourceType="nearly-demo/pages/base">
+        <par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys">
+
+            <text
+                    jcr:created="{Date}2013-06-24T11:40:45.935+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2013-06-24T11:41:05.456+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/text"
+                    text="This is some sample text added by karen. I've changed this. I've changed it again"/>
+
+        </par>
+    </jcr:content>
+</jcr:root>

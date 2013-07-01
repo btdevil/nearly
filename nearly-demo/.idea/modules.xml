@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nearly-demo-all/nearly-demo-all.iml" filepath="$PROJECT_DIR$/nearly-demo-all/nearly-demo-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nearly-demo-config/nearly-demo-config.iml" filepath="$PROJECT_DIR$/nearly-demo-config/nearly-demo-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nearly-demo-content/nearly-demo-content.iml" filepath="$PROJECT_DIR$/nearly-demo-content/nearly-demo-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nearly-demo-services/nearly-demo-services.iml" filepath="$PROJECT_DIR$/nearly-demo-services/nearly-demo-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nearly-demo-taglib/nearly-demo-taglib.iml" filepath="$PROJECT_DIR$/nearly-demo-taglib/nearly-demo-taglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nearly-demo-view/nearly-demo-view.iml" filepath="$PROJECT_DIR$/nearly-demo-view/nearly-demo-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+    </modules>
+  </component>
+</project>
+

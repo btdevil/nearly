@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>com.nearly.demo - nearly-demo-all</comment>
+<entry key="createdBy">SG0218866</entry>
+<entry key="name">nearly-demo-all</entry>
+<entry key="created">2013-07-01T17:19:19.555+0100</entry>
+<entry key="groupId">com.nearly.demo</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.nearly.demo</entry>
+<entry key="description">Builds a CQ package containing all components of the 'Nearly CQ demo' project. Useful for making formal
+        releases to QA and production environments for example.</entry>
+<entry key="artifactId">nearly-demo-all</entry>
+<entry key="path">/etc/packages/com.nearly.demo/nearly-demo-all.zip</entry>
+</properties>

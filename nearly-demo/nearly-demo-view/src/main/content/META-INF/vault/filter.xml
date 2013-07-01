@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/nearly-demo">
+        <exclude pattern="/apps/nearly-demo/install.*"/>
+        <exclude pattern="/apps/nearly-demo/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/nearly-demo"/>
+	<filter root="/etc/designs/nearly-demo">
+        <exclude pattern="/etc/designs/nearly-demo/jcr:content.*"/>
+    </filter>
+</workspaceFilter>

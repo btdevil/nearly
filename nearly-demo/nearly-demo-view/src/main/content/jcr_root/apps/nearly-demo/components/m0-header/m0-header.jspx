@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+    This is a simple non-page component using the preferred JSPX format that extends the foundation parbase component.
+
+-->
+
+<jsp:root xmlns="http://www.w3.org/1999/xhtml"
+          xmlns:jsp="http://java.sun.com/JSP/Page"
+          xmlns:nearly-demo="http://demo.nearly.com/taglibs/nearly-demo-taglib"
+          version="2.1">
+    
+    <jsp:directive.include file="/apps/nearly-demo/components/global.jspx"/>
+    <div class="header">
+        <span>Near</span><span class="italSc">.ly</span>
+    </div>
+
+</jsp:root>

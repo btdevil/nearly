@@ -1,0 +1,39 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:description="Nearly Generic template"
+          jcr:primaryType="cq:Template"
+          jcr:title="Home Page"
+          allowedPaths="[/content/nearly-demo(/.*)?]"
+          ranking="{Long}100">
+    <jcr:content
+            cq:designPath="/etc/designs/nearly-demo"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="nearly-demo/pages/base">
+        <parSys
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"/>
+ &lt;!&ndash;       <headerNavPanel
+                jcr:lastModified="{Date}2012-12-04T23:35:38.687+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="holidayautos/components/general/gr03-header-nav-panel"
+                dialterms="Mo-Fr 8-20 Uhr, Sa 9-19 Uhr, Sonn- und Feiertag 10-18 Uhr"
+                navitems="[{&quot;itemText&quot;:&quot;Car Hire&quot;\,&quot;itemURL&quot;:&quot;/content/holidayautos/en/homepage&quot;},{&quot;itemText&quot;:&quot;About Us&quot;\,&quot;itemURL&quot;:&quot;#&quot;},{&quot;itemText&quot;:&quot;Locations&quot;\,&quot;itemURL&quot;:&quot;#&quot;},{&quot;itemText&quot;:&quot;Special Offers&quot;\,&quot;itemURL&quot;:&quot;#&quot;}]"
+                phonenumber="0800 123 4567"
+                phones="[{&quot;phoneCountry&quot;:&quot;/content/dam/holidayautos/Flags/DE.png&quot;\,&quot;phoneCountryKey&quot;:&quot;Germany&quot;\,&quot;phoneNumber&quot;:&quot;${germany_phone}&quot;},{&quot;phoneCountry&quot;:&quot;/content/dam/holidayautos/Flags/AT.png&quot;\,&quot;phoneCountryKey&quot;:&quot;Austria&quot;\,&quot;phoneNumber&quot;:&quot;${austria_phone}&quot;}]"
+                showTUVLogo="true"/>&ndash;&gt;
+    </jcr:content>
+</jcr:root>-->
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:description="Base page template for the 'Nearly CQ demo' project."
+          jcr:primaryType="cq:Template"
+          jcr:title="Base Page"
+          allowedPaths="[/content/nearly-demo(/.*)?]"
+          ranking="{Long}100">
+    <jcr:content
+            cq:designPath="/etc/designs/nearly-demo"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="nearly-demo/components/base"/>
+</jcr:root>
