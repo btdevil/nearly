@@ -2,22 +2,9 @@
 	pageEncoding="utf-8"%>
 <%@include file="/libs/foundation/global.jsp"%>
 <%@page import="com.day.cq.wcm.api.WCMMode"%>
+<%@taglib prefix="ne" uri="http://demo.nearly.com/taglibs/nearly-demo-taglib" %>
 <cq:setContentBundle />
 <body>
 <cq:include script="header.jsp" />
-		<cq:include script="centre.jsp" />
-		<cq:include script="footer.jsp" />
-	</div>
-	<!-- END: .main-wrapper -->
-	<ne:writeJScripts />
-
-	<%
-		//include custom widgets for authoring dialogs only in non-publish mode
-		if (WCMMode.fromRequest(request) != WCMMode.DISABLED) {
-	%>
-		<cq:includeClientLib categories="apps.nearly-demo.widgets" />
-	<%
-		}
-	%>
-	<cq:include script="scripts_bottom.jsp"/>
+     <cq:include path="parBaseMain" resourceType="foundation/components/parsys"/>
 </body>
