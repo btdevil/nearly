@@ -6,5 +6,7 @@
 <cq:setContentBundle />
 <body>
 <cq:include script="header.jsp" />
-     <cq:include path="parBaseMain" resourceType="foundation/components/parsys"/>
+<cq:include script="centre.jsp" />
+<cq:include script="footer.jsp" />
+	<cq:include script="scripts_bottom.jsp"/>
 </body>

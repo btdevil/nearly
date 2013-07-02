@@ -12,8 +12,11 @@
           version="2.1">
     
     <jsp:directive.include file="/apps/nearly-demo/components/global.jspx"/>
-    <div class="header">
-        <span>Near</span><span class="italSc">.ly</span>
+    <div class="header-cont">
+        <ul><li class="acc">Menu</li></ul>
+        <div class="logo">
+        Near<span class="italSc">.ly</span>
+        </div>
     </div>
 
 </jsp:root>

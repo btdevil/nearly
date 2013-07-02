@@ -1,4 +1,10 @@
-body{background-color:#000;color:#fff;font-family:'Open Sans', sans-serif;font-size:62.5%}
+body{background-color:#000;color:#fff;font-size:62.5%;font-family:'Open Sans',Verdana,sans-serif;padding:10px 0;margin:0 !important;}
 
-.header span{font-size:2.1em;text-align:right;}
-.italSc{font-family: 'Oleo Script', cursive;color:#ffa723;}
+.header-cont ul{list-style:none;padding:0;margin:0;float:left;}
+.header-cont li{list-style:none;padding:0;margin:0}
+.header-cont {font-family:'Open Sans',sans-serif;float:left;width:100%;border-bottom:3px solid #fff;}
+.header-cont .logo{float:right;padding:0 20px 0 0;font-size:3.1em;}
+.header-cont .logo .italSc{text-align:right;font-family: 'Oleo Script', cursive;color:#ffa723;}
+
+
+.acc{text-indent:-99em;}
