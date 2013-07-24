@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1372781789130
+Bnd-LastModified: 1373881852587
 Build-Jdk: 1.6.0_43
 Built-By: SG0218866
 Bundle-Activator: com.nearly.demo.taglib.osgi.Activator

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          helpPath="en/cq/current/wcm/default_components.html#Text"
+          title="Loader Message"
+          height="260"
+          xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <panel
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="Loader Messages"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <flickrMessage
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="FLickr Loader Message"
+                    name="./flickrMessage"
+                    autoHeight="true"
+                    xtype="textfield"/>
+                    <twitterMessage
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Twitter Loader Message"
+                    name="./twitterMessage"
+                    autoHeight="true"
+                    xtype="textfield"/>
+                     <facebookMessage
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Facebook Loader Message"
+                    name="./facebookMessage"
+                    autoHeight="true"
+                    xtype="textfield"/>
+            </items>
+        </panel>
+    </items>
+</jcr:root>

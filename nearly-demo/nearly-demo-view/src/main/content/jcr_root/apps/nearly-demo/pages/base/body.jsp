@@ -5,6 +5,10 @@
 <%@taglib prefix="ne" uri="http://demo.nearly.com/taglibs/nearly-demo-taglib" %>
 <cq:setContentBundle />
 <body>
+<div id="overlay">
+<div id="overText"></div>
+<div class="loadingSpinner"></div>
+</div>
 <cq:include script="header.jsp" />
 <cq:include script="centre.jsp" />
 <cq:include script="footer.jsp" />

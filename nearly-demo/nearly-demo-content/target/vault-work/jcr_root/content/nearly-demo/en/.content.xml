@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <car-hire/>
+    <contact-us/>
+    <faqs_tabulator/>
+    <live-alerts/>
+    <mail-template/>
+    <sitemap/>
+    <test-car-hire/>
+    <jcr:content
+        cq:designPath="/etc/designs/nearly-demo"
+        cq:lastModified="{Date}2013-06-05T12:49:34.748+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/nearly-demo/templates/base"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="nearly-demo/pages/base">
+    </jcr:content>
+    <homepage/>
+
+</jcr:root>

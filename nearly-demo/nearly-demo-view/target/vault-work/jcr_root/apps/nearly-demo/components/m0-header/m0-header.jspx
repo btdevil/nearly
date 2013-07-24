@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <!--
 
     This is a simple non-page component using the preferred JSPX format that extends the foundation parbase component.
@@ -12,7 +10,7 @@
           version="2.1">
     
     <jsp:directive.include file="/apps/nearly-demo/components/global.jspx"/>
-    <div class="header-cont">
+    <div class="header-cont clear">
         <ul><li class="acc">Menu</li></ul>
         <div class="logo">
         Near<span class="italSc">.ly</span>

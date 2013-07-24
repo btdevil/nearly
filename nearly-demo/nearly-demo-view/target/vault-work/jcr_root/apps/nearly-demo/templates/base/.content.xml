@@ -1,4 +1,15 @@
-<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:description="Base page template for the 'Nearly CQ demo' project."
+          jcr:primaryType="cq:Template"
+          jcr:title="Base Page"
+          allowedPaths="[/content/nearly-demo(/.*)?]"
+          ranking="{Long}100">
+    <jcr:content
+            cq:designPath="/etc/designs/nearly-demo"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="nearly-demo/pages/base"/>
+</jcr:root><!--
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
           jcr:description="Nearly Generic template"
@@ -25,15 +36,4 @@
                 showTUVLogo="true"/>&ndash;&gt;
     </jcr:content>
 </jcr:root>-->
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          jcr:description="Base page template for the 'Nearly CQ demo' project."
-          jcr:primaryType="cq:Template"
-          jcr:title="Base Page"
-          allowedPaths="[/content/nearly-demo(/.*)?]"
-          ranking="{Long}100">
-    <jcr:content
-            cq:designPath="/etc/designs/nearly-demo"
-            jcr:primaryType="cq:PageContent"
-            sling:resourceType="nearly-demo/components/base"/>
-</jcr:root>
+
