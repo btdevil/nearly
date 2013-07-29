@@ -130,6 +130,7 @@ nearly.flickr = (function (nearly, $) {
         init: function () {
             if (nearly.location.hasGeo) {
                 nearly.flickr.searchFlickr();
+                nearly.FB.getCheckins();
             } else if (nearly.location.hasGeo === false && nearly.location.triedGeo === false) {
                 nearly.location.getUserLocation();
                 nearly.isGeoDone = setInterval(function () {
@@ -137,9 +138,11 @@ nearly.flickr = (function (nearly, $) {
                         if (nearly.location.hasGeo) {
                             window.clearInterval(nearly.isGeoDone);
                             nearly.flickr.searchFlickr();
+                            nearly.FB.getCheckins();
                         } else {
                             window.clearInterval(nearly.isGeoDone);
                             nearly.flickr.handleError();
+                            nearly.FB.getCheckins();
                         }
                     }
                 }, 500)

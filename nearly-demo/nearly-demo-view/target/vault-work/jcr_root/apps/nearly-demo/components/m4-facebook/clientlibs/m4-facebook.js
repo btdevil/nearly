@@ -27,7 +27,7 @@ nearly.FB = (function(nearly, $){
 		init: function(){
 			FB.Event.subscribe('auth.authResponseChange', function(response) {
 			 	if (response.status === 'connected') {
-			 		nearly.FB.testAPI();
+			 		nearly.FB.saveTokens();
 	    		} else if (response.status === 'not_authorized') {
 					FB.login();
 	    		} else {
@@ -35,15 +35,22 @@ nearly.FB = (function(nearly, $){
 	    		}
 	    	});
 	    },
-	    testAPI: function(){
-	    	var that = this;
-	    	console.log('Welcome!  Fetching your information.... ');
-	    	FB.api('/me', function(response) {
-	      	console.log('Good to see you, ' + response.name + '.');
-	      	that.tokens = FB.getAuthResponse();
-	      	console.log(nearly.FB.tokens);
-	      	});
+	    processResults: function(json){
+	      console.log(json);
+	    },
+	    saveTokens: function(){
+	       var that = this;
+	       that.tokens = FB.getAuthResponse();
+	       console.log(nearly.FB.tokens);
+	    },
+	    getCheckins: function(){
+	    	var that = this, uCoords = nearly.location.userLocation.coords;
 
+            $.ajax({
+                url: "https://graph.facebook.com/search?type=location&center="+uCoords.latitude+","+uCoords.longitude+"&distance=1000&accessToken="+that.tokens.accessToken,
+                success: that.processResults,
+                context: that
+            })
 
 	    }
 	}
