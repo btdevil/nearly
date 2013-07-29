@@ -2,36 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15b45902-b138-4556-b24b-ea6b9832f945" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-content/src/main/content/jcr_root/content/nearly-demo/th_th/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-content/src/main/content/jcr_root/content/nearly-demo/th_th/homepage/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/templates/errorpage/.content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-services/src/main/java/com/nearly/demo/services/errorhandler/ErrorHandlerServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/pages/errorpage/center.jsp" />
-      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\.idea\libraries\Maven__commons_lang_commons_lang_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\.idea\libraries\Maven__org_jsoup_jsoup_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-content\src\main\content\jcr_root\content\nearly-demo\en\home-page\.content.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\src\main\content\jcr_root\apps\nearly-demo\components\m0-header\m0-header.jspx" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\clientlibs\.content.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/pages/errorpage/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/.content.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/.content.xml" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\nearly-demo-view-1.0.0-SNAPSHOT.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\META-INF\vault\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\META-INF\vault\definition\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\META-INF\vault\definition\thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\META-INF\vault\filter.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\META-INF\vault\properties.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\META-INF\vault\settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\examplecomponent2\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\examplecomponent2\dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\examplecomponent2\examplecomponent2.jspx" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\examplecomponent\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\examplecomponent\dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\examplecomponent\examplecomponent.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\examplepage\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\examplepage\body.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\global.jspx" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m0-header\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m0-header\dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m0-header\m0-header.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m1-google-map\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m1-google-map\clientlibs\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m1-google-map\clientlibs\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m1-google-map\clientlibs\js.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m1-google-map\clientlibs\m1-google-map.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m1-google-map\clientlibs\m1-google-map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m1-google-map\dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m1-google-map\m1-google-map.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m2-location\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m2-location\clientlibs\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m2-location\clientlibs\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m2-location\clientlibs\js.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m2-location\clientlibs\m2-location.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m2-location\clientlibs\m2-location.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m2-location\dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m2-location\m2-location.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\clientlibs\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\clientlibs\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\clientlibs\js.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\clientlibs\m3-loader-message.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\clientlibs\m3-loader-message.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\m3-loader-message.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m4-facebook\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m4-facebook\clientlibs\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m4-facebook\clientlibs\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m4-facebook\clientlibs\js.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m4-facebook\clientlibs\m4-facebook.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m4-facebook\clientlibs\m4-facebook.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m4-facebook\dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m4-facebook\m4-facebook.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\i18n\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\i18n\en.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\i18n\th.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\base.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\body.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\centre.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\clientlibs\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\clientlibs\base.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\clientlibs\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\footer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\head.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\header.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\scripts_bottom.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\base\scripts_head.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\errorpage\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\errorpage\center.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\homepage\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\pages\homepage\footer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\templates\base\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\templates\errorpage\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\templates\exampletemplate\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\templates\homepage\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\sling\servlet\errorhandler\404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\sling\servlet\errorhandler\default.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\clientlibs\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\components\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\components\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\components\js.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\global\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\global\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\global\css\global.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\global\js.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\global\js\global.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\pages\base\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\pages\base\css.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\pages\base\js.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\clientlibs\pages\homepage\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\img\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\etc\designs\nearly-demo\static.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/dialog.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/dialog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/i18n/en.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/i18n/en.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/css/global.css" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/js/global.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/js/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.css" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/m1-google-map.jsp" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/m1-google-map.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m2-location/clientlibs/m2-location.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m2-location/clientlibs/m2-location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.css" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/m3-loader-message.jsp" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/m3-loader-message.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m4-facebook/clientlibs/m4-facebook.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m4-facebook/clientlibs/m4-facebook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-all/nearly-demo-all.iml" afterPath="$PROJECT_DIR$/nearly-demo-all/nearly-demo-all.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-services/nearly-demo-services.iml" afterPath="$PROJECT_DIR$/nearly-demo-services/nearly-demo-services.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-taglib/nearly-demo-taglib.iml" afterPath="$PROJECT_DIR$/nearly-demo-taglib/nearly-demo-taglib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-services/pom.xml" afterPath="$PROJECT_DIR$/nearly-demo-services/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/i18n/th.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/i18n/th.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="parent.iws" />
@@ -39,12 +112,12 @@
     <file path="/Dummy.txt" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1375086314864" ignored="false" />
     <file path="C:/CQ/source/holidayautos/pom.xml" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1372070818752" ignored="false" />
     <file path="/.content.xml" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1374844297755" ignored="false" />
-    <file path="/404.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1372079970438" ignored="false" />
-    <file path="/default.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1374848617284" ignored="false" />
+    <file path="/404.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1375089759240" ignored="false" />
+    <file path="/default.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1375090526170" ignored="false" />
     <file path="/base.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1372159800801" ignored="false" />
     <file path="/head.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1372159130437" ignored="false" />
     <file path="/body.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1373280386702" ignored="false" />
-    <file path="/global.css" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1373281982035" ignored="false" />
+    <file path="/global.css" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1375090580244" ignored="false" />
     <file path="/scripts_head.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1372943554961" ignored="false" />
     <file path="/centre.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1373394047983" ignored="false" />
     <file path="/header.jsp" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1372771827669" ignored="false" />
@@ -153,10 +226,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="835" vertical-scroll-proportion="0.0">
+            <state line="54" column="29" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/css/global.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="24" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="center.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/pages/errorpage/center.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,7 +256,7 @@
       <file leaf-file-name="404.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="79" vertical-scroll-proportion="0.0">
+            <state line="72" column="2" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,30 +292,8 @@
       <file leaf-file-name="m0-header.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m0-header/m0-header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="376" selection-end="571" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodbyeWorldTag.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nearly-demo-taglib/src/main/java/com/nearly/demo/taglib/GoodbyeWorldTag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nearly-demo-taglib/src/main/java/com/nearly/demo/taglib/osgi/Activator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -258,7 +327,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.js" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/js/global.js" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/m3-loader-message.jsp" />
@@ -274,6 +342,7 @@
         <option value="$PROJECT_DIR$/nearly-demo-services/pom.xml" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp" />
+        <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/css/global.css" />
       </list>
     </option>
   </component>
@@ -502,7 +571,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -536,19 +605,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="errorhandler" />
+              <option name="myItemId" value="designs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,91 +643,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="designs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -704,7 +685,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -712,7 +697,149 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="clientlibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearly-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearly-demo-view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcr_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearly-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientlibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearly-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearly-demo-view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcr_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearly-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientlibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearly-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearly-demo-view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcr_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientlibs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1078,7 +1205,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1086,15 +1213,15 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3321976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.318569" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.225" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.225" sideWeight="0.681431" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19166666" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31873906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19166666" sideWeight="0.681431" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.318569" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1166,20 +1293,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nearly-demo-content/src/main/content/jcr_root/content/nearly-demo/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nearly-demo-content/src/main/content/jcr_root/content/nearly-demo/en/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m4-facebook/clientlibs/m4-facebook.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="16" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
@@ -1258,13 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m0-header/m0-header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="29" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.0">
@@ -1272,16 +1378,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/pages/errorpage/center.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m0-header/m0-header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="376" selection-end="571" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="72" column="2" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="835" vertical-scroll-proportion="0.0">
+        <state line="54" column="29" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.8">
           <folding />
         </state>
       </provider>

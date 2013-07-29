@@ -13,4 +13,5 @@ body{background-color:#000;color:#fff;font-size:62.5%;font-family:'Open Sans',Ve
 .loadingSpinner{display:block;width:32px;height:32px;background:url(/etc/designs/nearly-demo/img/ajax-loader.gif) no-repeat; position:fixed;left:50%;top:200px;margin:-32px 0 0 -16px;}
 #overText{color:#ffa723;font-size:1.4em;position:absolute;width:300px;left:50%;top:220px;margin:0 0 0 -150px;text-align:center;}
 
-.errorPage{padding:20px;text-align: center;float:left;width: 100%;}
+.errorPage{padding:20px;text-align: center;float:left;width: 100%;font-size:1.2em}
+ .errorPage a{color:#fff}
