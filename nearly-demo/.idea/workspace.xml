@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15b45902-b138-4556-b24b-ea6b9832f945" name="Default" comment="" />
+    <list default="true" id="15b45902-b138-4556-b24b-ea6b9832f945" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-content/src/main/content/jcr_root/content/nearly-demo/th_th/.content.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-content/src/main/content/jcr_root/content/nearly-demo/th_th/homepage/.content.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/templates/errorpage/.content.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-services/src/main/java/com/nearly/demo/services/errorhandler/ErrorHandlerServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/pages/errorpage/center.jsp" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\.idea\libraries\Maven__commons_lang_commons_lang_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\.idea\libraries\Maven__org_jsoup_jsoup_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-content\src\main\content\jcr_root\content\nearly-demo\en\home-page\.content.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\src\main\content\jcr_root\apps\nearly-demo\components\m0-header\m0-header.jspx" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\target\vault-work\jcr_root\apps\nearly-demo\components\m3-loader-message\clientlibs\.content.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/pages/errorpage/.content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/.content.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/.content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/dialog.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/i18n/en.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/i18n/en.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/css/global.css" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/js/global.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/etc/designs/nearly-demo/clientlibs/global/js/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.css" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/clientlibs/m1-google-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/m1-google-map.jsp" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m1-google-map/m1-google-map.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m2-location/clientlibs/m2-location.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m2-location/clientlibs/m2-location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.css" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/m3-loader-message.jsp" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/m3-loader-message.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m4-facebook/clientlibs/m4-facebook.js" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m4-facebook/clientlibs/m4-facebook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-all/nearly-demo-all.iml" afterPath="$PROJECT_DIR$/nearly-demo-all/nearly-demo-all.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-services/nearly-demo-services.iml" afterPath="$PROJECT_DIR$/nearly-demo-services/nearly-demo-services.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-taglib/nearly-demo-taglib.iml" afterPath="$PROJECT_DIR$/nearly-demo-taglib/nearly-demo-taglib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-services/pom.xml" afterPath="$PROJECT_DIR$/nearly-demo-services/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/i18n/th.xml" afterPath="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/i18n/th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="parent.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="15b45902-b138-4556-b24b-ea6b9832f945" time="1375086314864" ignored="false" />
@@ -55,11 +87,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="Commander">
-    <leftPanel />
-    <rightPanel url="file://$PROJECT_DIR$" />
-    <splitter proportion="0.5" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -120,16 +147,25 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nearly-demo-services/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="21" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-11.0">
+            <state line="259" column="21" selection-start="9281" selection-end="9281" vertical-scroll-proportion="-11.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="74" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="835" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="79" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,7 +183,7 @@
       <file leaf-file-name="m3-loader-message.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="73" column="29" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,22 +198,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m0-header.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="m0-header.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m0-header/m0-header.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodbyeWorldService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nearly-demo-services/src/main/java/com/nearly/demo/services/GoodbyeWorldService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -239,16 +264,16 @@
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/m3-loader-message.jsp" />
         <option value="$PROJECT_DIR$/nearly-demo-services/src/main/java/com/nearly/demo/services/LoaderMessageBean.java" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/dialog.xml" />
-        <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/pages/errorpage/.content.xml" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/pages/errorpage/center.jsp" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/templates/errorpage/.content.xml" />
         <option value="$PROJECT_DIR$/nearly-demo-services/src/main/java/com/nearly/demo/services/errorhandler/LocaleResolver.java" />
         <option value="$PROJECT_DIR$/nearly-demo-services/src/main/java/com/nearly/demo/services/errorhandler/I18NFilter.java" />
-        <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp" />
         <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m4-facebook/clientlibs/m4-facebook.js" />
         <option value="$PROJECT_DIR$/nearly-demo-services/src/main/java/com/nearly/demo/services/errorhandler/ErrorHandlerServlet.java" />
         <option value="$PROJECT_DIR$/nearly-demo-services/pom.xml" />
+        <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp" />
+        <option value="$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp" />
       </list>
     </option>
   </component>
@@ -701,436 +726,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m4-facebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m4-facebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clientlibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m3-loader-message" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m3-loader-message" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clientlibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m2-location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m2-location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clientlibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m1-google-map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m1-google-map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clientlibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo-view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m0-header" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nearly-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="nearly-demo-taglib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1339,23 +934,6 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.nearly.demo.services.errorhandler" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-services\src\main\java\com\nearly\demo\services" />
-      <recent name="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-content\src\main\content\jcr_root\content\nearly-demo\th_th\homepage" />
-      <recent name="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-content\src\main\content\jcr_root\content\nearly-demo\th_th" />
-      <recent name="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\src\main\content\jcr_root\apps\nearly-demo\templates" />
-      <recent name="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\src\main\content\jcr_root\apps\nearly-demo\pages" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-content\src\main\content\jcr_root\content\nearly-demo\en" />
-      <recent name="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\src\main\content\jcr_root\etc\designs\nearly-demo\img" />
-      <recent name="C:\Users\sg0218866\Documents\GitHub\nearly\nearly-demo\nearly-demo-view\src\main\content\jcr_root\apps\sling\servlet\errorhandler" />
-    </key>
-  </component>
   <component name="RunManager" selected="Remote.Unnamed">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -1490,23 +1068,6 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="15b45902-b138-4556-b24b-ea6b9832f945" name="Default" comment="" />
@@ -1517,7 +1078,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1532,7 +1093,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.225" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19166666" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19166666" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31873906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1603,10 +1164,6 @@
         <breakpoints-dialog />
       </breakpoints-dialog>
     </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/nearly-demo-content/src/main/content/jcr_root/content/nearly-demo/.content.xml">
@@ -1682,26 +1239,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nearly-demo-services/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-11.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="74" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
+        <state line="259" column="21" selection-start="9281" selection-end="9281" vertical-scroll-proportion="-11.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/m3-loader-message.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1722,81 +1265,27 @@
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>nearly-demo-all</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.cqblueprints.taglib:cqblueprints-taglib:5.5.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/nearly-demo/components/m3-loader-message/clientlibs/m3-loader-message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="29" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nearly-demo-view/src/main/content/jcr_root/apps/sling/servlet/errorhandler/default.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="835" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

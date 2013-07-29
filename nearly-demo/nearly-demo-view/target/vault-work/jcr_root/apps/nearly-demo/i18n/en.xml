@@ -9,5 +9,21 @@
         jcr:primaryType="nt:folder"
         sling:key="locText"
         sling:message="Get my location"/>
-
+    <homepageUrl 
+		jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="homepageUrl"
+        sling:message="/content/en/homepage.html"/>
+     <error404Title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="error404Title"
+        sling:message="Oops you seem to be lost"
+        />
+    <backWord
+    	jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="backWord"
+        sling:message="Back to homepage"
+        />
 </jcr:root>

@@ -9,5 +9,22 @@
             jcr:primaryType="nt:folder"
             sling:key="locText"
             sling:message="รับสถานที่ของฉัน"/>
+    <homepageUrl 
+		jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="homepageUrl"
+        sling:message="/content/th_th/homepage.html"/>
+     <error404Title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="error404Title"
+        sling:message="โอ๊ะคุณดูเหมือนจะหายไป"
+        />
+    <backWord
+    	jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="backWord"
+        sling:message="กลับไปที่หน้าแรกของ"
+        />
 
 </jcr:root>

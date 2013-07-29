@@ -4,6 +4,7 @@ nearly.gMaps = (function (nearly, $) {
         map: null,
         gLatLong: null,
         meMarker: null,
+        bounds: null,
         init: function(){
             var that = this;
             google.maps.event.addDomListener(window, 'load', this.mapInit);
@@ -28,20 +29,26 @@ nearly.gMaps = (function (nearly, $) {
 //                draggable:false,
 //                animation: google.maps.Animation.DROP,
 //            })
-            that.dropPin(that.gLatLong, [{title: "My Location"}], 0);
+            that.dropPin(that.gLatLong, [{title: "My Location"}], 0, "https://maps.gstatic.com/mapfiles/ms2/micons/yellow.png");
             nearly.flickr.init();
         },
-        dropPin: function(iLatLong, imgArr, flickerCounter){
+        dropPin: function(iLatLong, imgArr, flickerCounter, icon){
             var that = this,
-            pinTitle = imgArr.length > 0 && flickerCounter > 0 ? "Mulitple images: "+flickerCounter : imgArr[0].title,
+            pinTitle = imgArr.length > 0 && flickerCounter > 1 ? "Mulitple images: "+flickerCounter : imgArr[0].title,
             infoWindow = imgArr.length > 0 && flickerCounter > 0 ? this.createInfoWindow(iLatLong, imgArr, pinTitle, flickerCounter) : false,
             marker = new google.maps.Marker({
                             map:that.map,
                             position: iLatLong,
                             draggable:false,
                             animation: google.maps.Animation.DROP,
-                            title: pinTitle
+                            title: pinTitle,
+                            icon: icon
             });
+            if(that.bounds === null){
+                that.bounds = new google.maps.LatLngBounds();
+            }
+            that.bounds.extend(marker.position);
+
             if(infoWindow){
                 google.maps.event.addListener(marker, 'click', function(){
                     infoWindow.open(that.map, marker);
@@ -61,6 +68,9 @@ nearly.gMaps = (function (nearly, $) {
             }
             iWindowContent += '</div>'
             return new google.maps.InfoWindow({content: iWindowContent});
+        },
+        centerOnPins: function(){
+
         }
     };
     return process;

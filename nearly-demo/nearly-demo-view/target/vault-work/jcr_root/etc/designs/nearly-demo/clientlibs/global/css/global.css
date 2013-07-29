@@ -3,12 +3,14 @@ body{background-color:#000;color:#fff;font-size:62.5%;font-family:'Open Sans',Ve
 .header-cont ul{list-style:none;padding:0;margin:0;float:left;}
 .header-cont li{list-style:none;padding:0;margin:0}
 .header-cont {font-family:'Open Sans',sans-serif;float:left;width:100%;border-bottom:3px solid #fff;}
-.header-cont .logo{float:right;padding:0 20px 0 0;font-size:3.1em;}
+.header-cont .logo{float:right;padding:0 20px 0 0;font-size:3.1em;color:#fff;text-decoration:none;}
 .header-cont .logo .italSc{text-align:right;font-family: 'Oleo Script', cursive;color:#ffa723;}
 
 
 
-.acc{text-indent:-99em;}
+.acc{text-indent:-99em;display: block;height: 0px;margin: 0;}
 #overlay{display:none;position:fixed;width:100%;height:100%;background: rgba(0,0,0,0.8);z-index:999;}
 .loadingSpinner{display:block;width:32px;height:32px;background:url(/etc/designs/nearly-demo/img/ajax-loader.gif) no-repeat; position:fixed;left:50%;top:200px;margin:-32px 0 0 -16px;}
 #overText{color:#ffa723;font-size:1.4em;position:absolute;width:300px;left:50%;top:220px;margin:0 0 0 -150px;text-align:center;}
+
+.errorPage{padding:20px;text-align: center;float:left;width: 100%;}

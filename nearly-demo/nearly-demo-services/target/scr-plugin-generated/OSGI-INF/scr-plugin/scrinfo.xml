@@ -9,4 +9,13 @@
         <property name="service.description" type="String" value="Provides a friendly farewell." private="false"/>
         <property name="service.pid" value="com.nearly.demo.services.GoodbyeWorldService" private="false"/>
     </scr:component>
+    <scr:component enabled="true" name="com.nearly.demo.services.errorhandler.ErrorHandlerServlet">
+        <implementation class="com.nearly.demo.services.errorhandler.ErrorHandlerServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/services/nearly/demo/errorhandler" private="false"/>
+        <property name="service.pid" value="com.nearly.demo.services.errorhandler.ErrorHandlerServlet" private="false"/>
+        <reference name="localeResolver" interface="org.apache.sling.i18n.LocaleResolver" cardinality="0..1" policy="dynamic" bind="bindLocaleResolver" unbind="unbindLocaleResolver" checked="true" strategy="event"/>
+    </scr:component>
 </components>

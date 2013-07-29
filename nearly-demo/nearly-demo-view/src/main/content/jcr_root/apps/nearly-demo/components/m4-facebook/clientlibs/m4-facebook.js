@@ -36,11 +36,14 @@ nearly.FB = (function(nearly, $){
 	    	});
 	    },
 	    testAPI: function(){
+	    	var that = this;
 	    	console.log('Welcome!  Fetching your information.... ');
 	    	FB.api('/me', function(response) {
 	      	console.log('Good to see you, ' + response.name + '.');
+	      	that.tokens = FB.getAuthResponse();
+	      	console.log(nearly.FB.tokens);
 	      	});
-	    	this.tokens = FB.getAuthResponse();
+
 
 	    }
 	}

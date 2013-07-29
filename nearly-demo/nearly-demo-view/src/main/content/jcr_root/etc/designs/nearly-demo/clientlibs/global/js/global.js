@@ -1,20 +1,5 @@
 var nearly = window.nearly || {};
 
-nearly.loader = (function(nearly, $){
-var process = {
-        loadDiv: $("#overlay"),
-        showLoader: function(text){
-            var that = this;
-            that.loadDiv.find("#overText").text(text);
-            that.loadDiv.show();
-        },
-        hideLoader: function(){
-            var that = this;
-            that.loadDiv.hide();
-        }
-    }
-    return process;
-})(nearly, $);
 
 
 nearly.flickr = (function (nearly, $) {
@@ -22,6 +7,7 @@ nearly.flickr = (function (nearly, $) {
         apiKey: "8161e35177ace7b2897cfee45da35e28",
         secret: "",
         groupedImages: [],
+        dateStamp: "1104559200",
         addToPage: function (json) {
             var cont = $("#photos"), that = this, photoHtml = [], photos = json.photos.photo, photoLen = photos.length;
 
@@ -40,6 +26,8 @@ nearly.flickr = (function (nearly, $) {
         },
         searchFlickr: function () {
             var that = this, fUrl = that.buildSearchUrl(false);
+            nearly.loader.showSubLoader();
+            nearly.loader.showMessage("flickr");
             $.ajax({
                 context: that,
                 dataType: "jsonp",
@@ -85,9 +73,12 @@ nearly.flickr = (function (nearly, $) {
             for(var i = 0, iLen = that.groupedImages.length; i < iLen; i++){
                 var that = this, 
                 imgGroup = that.groupedImages[i],
+                flickrIcon = "http://l.yimg.com/g/images/goodies/white-small-chiclet.png",
                 newPinLatLong = new google.maps.LatLng(imgGroup.lat, imgGroup.lon);
-                nearly.gMaps.dropPin(newPinLatLong, imgGroup.images, imgGroup.counter);
+                nearly.gMaps.dropPin(newPinLatLong, imgGroup.images, imgGroup.counter, flickrIcon);
             }
+            nearly.gMaps.map.fitBounds(nearly.gMaps.bounds);
+            nearly.loader.hideMessage("flickr");
             console.log(photos);
         },
         orderResults: function(a,b){

@@ -30,6 +30,12 @@
                     name="./facebookMessage"
                     autoHeight="true"
                     xtype="textfield"/>
+                    <locationMessage
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Location Loader Message"
+                    name="./locationMessage"
+                    autoHeight="true"
+                    xtype="textfield"/>
             </items>
         </panel>
     </items>

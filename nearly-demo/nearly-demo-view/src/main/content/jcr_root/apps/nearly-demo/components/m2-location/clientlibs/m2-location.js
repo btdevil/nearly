@@ -22,6 +22,7 @@ nearly.location = (function (nearly, $) {
             that.userBBox = that.getUserBoundingBox();
             that.hasGeo = true;
             that.triedGeo = true;
+            that.changeText("Refresh my location");
         },
         geoError: function(msg){
             var that = nearly.location;
@@ -53,7 +54,7 @@ nearly.location = (function (nearly, $) {
                 if (nearly.location.hasGeo) {
                     nearly.gMaps.recenterMap();
                 } else if (nearly.location.hasGeo === false && nearly.location.triedGeo === false) {
-                    nearly.loader.showLoader("Getting your location...");
+                    nearly.loader.showLoader();
                     nearly.location.getUserLocation();
                     nearly.isGeoDone = setInterval(function () {
                         if (nearly.location.triedGeo === true) {
