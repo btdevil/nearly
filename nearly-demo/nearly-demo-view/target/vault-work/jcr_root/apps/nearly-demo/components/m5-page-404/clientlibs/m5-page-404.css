@@ -1,0 +1,41 @@
+.page-404 {
+
+    }
+    .page-404__title {
+        font-size: 30px;
+        font-weight: normal;
+        padding-top: 10px;
+        color: #000; 
+        line-height: 1.2;
+        margin-left: 158px;
+    }
+    .page-404__content {
+        position: relative;
+        min-height: 529px;
+        }
+        .page-404__img {
+
+        }
+        .page-404__text-block {
+            position: absolute;
+            top: 46px;
+            left: 158px;
+            width: 356px;
+            line-height: 1.1;
+            z-index: 3;
+            }
+            .page-404__text-title {
+                font-size: 50px;
+                color: #000;
+                padding-bottom: 18px;
+            }
+            .page-404__text {
+                font-size: 21px;
+                color: #fff;
+                padding-bottom: 20px;
+            }
+            .page-404__text p {
+                font-size: 21px !important;
+                color: #fff;
+                font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+            }

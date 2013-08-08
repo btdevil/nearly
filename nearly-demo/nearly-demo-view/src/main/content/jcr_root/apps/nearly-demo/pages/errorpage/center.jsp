@@ -7,5 +7,9 @@
 <%@page session="false" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 <%@include file="/libs/foundation/global.jsp" %>
 <div class="main main_error-page clearfix" role="main">
-
+     <cq:include path="page404" resourceType="nearly-demo/components/m5-page-404"/>
 </div>
+
+
+
+

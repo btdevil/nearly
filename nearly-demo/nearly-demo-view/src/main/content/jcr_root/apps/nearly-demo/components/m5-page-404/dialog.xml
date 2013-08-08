@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          helpPath="en/cq/current/wcm/default_components.html#Text"
+          title="Error component settings"
+          height="500"
+          xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <errorContent
+                jcr:primaryType="cq:Widget"
+                anchor="100%"
+                title="General"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <pageTitle
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Page title"
+                        name="./componentTitle"
+                        xtype="textfield"/>
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Title"
+                        name="./errorTitle"
+                        xtype="textfield"/>
+                    <comment
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Comment"
+                        name="./errorText"
+                        height="200px"
+                        xtype="textarea"/>
+                    <backButtonText
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Back button text"
+                        name="./backButtonText"
+                        xtype="textfield"/>
+                </items>
+            </errorContent>
+            <image
+                jcr:primaryType="cq:Widget"
+                title="Background image"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <image
+                        jcr:primaryType="cq:Widget"
+                        ddGroups="[media]"
+                        fileNameParameter="./fileName"
+                        fileReferenceParameter="./fileReference"
+                        name="./file"
+                        title="Error image"
+                        height="200"
+                        width="350"
+                        forceLayout="true"
+                        xtype="smartimage"/>
+                    <alt
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Image Alt"
+                        name="./imageAlt"
+                        defaultValue="Error image"
+                        xtype="textfield"/>
+                </items>
+            </image>
+        </items>
+    </items>
+</jcr:root>

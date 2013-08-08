@@ -58,18 +58,6 @@
             <version>2.5</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.10</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-            <version>1.9.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>com.day.cq</groupId>
             <artifactId>cq-commons</artifactId>
             <scope>provided</scope>
@@ -138,26 +126,6 @@
             <version>5.4.0</version>
         </dependency>
         <dependency>
-            <groupId>javax.mail</groupId>
-            <artifactId>mail</artifactId>
-            <version>1.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>0.2.2</version>
-        </dependency>
-        <dependency>
-            <groupId>net.tanesha.recaptcha4j</groupId>
-            <artifactId>recaptcha4j</artifactId>
-            <version>0.0.7</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.8.2</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.jackrabbit</groupId>
             <artifactId>jackrabbit-jcr-commons</artifactId>
             <version>2.4.0</version>
@@ -181,26 +149,9 @@
             <version>2.1.0</version>
         </dependency>
         <dependency>
-            <groupId>com.fasterxml.jackson.dataformat</groupId>
-            <artifactId>jackson-dataformat-csv</artifactId>
-            <version>2.1.2</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.commons.scheduler</artifactId>
             <version>2.3.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.powermock</groupId>
-            <artifactId>powermock-module-junit4</artifactId>
-            <version>1.4.7</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.powermock</groupId>
-            <artifactId>powermock-api-mockito</artifactId>
-            <version>1.4.7</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.day.cq.workflow</groupId>
@@ -235,22 +186,7 @@
             <version>2.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>3.9</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-examples</artifactId>
-            <version>3.9</version>
-        </dependency>
 
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-scratchpad</artifactId>
-            <version>3.9</version>
-        </dependency>
         <dependency>
             <groupId>com.apple</groupId>
             <artifactId>AppleJavaExtensions</artifactId>
@@ -269,6 +205,11 @@
                 <configuration>
                     <instructions>
                         <Bundle-Activator>com.nearly.demo.services.osgi.Activator</Bundle-Activator>
+                        <Import-Package>*;resolution:=optional</Import-Package>
+                        <Export-Package>com.nearly.demo.services.*</Export-Package>
+                        <Import-Bundle>
+                            *
+                        </Import-Bundle>
                     </instructions>
                 </configuration>
             </plugin>
